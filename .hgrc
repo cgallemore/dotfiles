@@ -1,0 +1,21 @@
+[ui]
+username = Chad Gallemore <cgallemo@qualitydistribution.com>
+editor = vim
+
+[extensions]
+color =
+hgext.mq =
+graphlog = 
+rebase =
+bookmarks = 
+hgext.extdiff =
+
+[extdiff]
+cmd.kdiff3 =
+
+[merge-tools]
+kdiff3.args = $base $local $other -o $output
+
+[bookmarks]
+track.current = True
+
